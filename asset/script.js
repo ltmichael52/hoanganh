@@ -18,3 +18,8 @@ function hideImage(){
 
 imageCard.on("click",hideImage);
 
+var hienthi = $("#appearImage")
+function showImage(){
+    imageCard.show();
+}
+hienthi.on("click",showImage);
