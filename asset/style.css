@@ -71,7 +71,7 @@ nav a:hover{
     padding:15px;
     font-size:14px;
 }
-#changeColorButton{
+.button{
     display: block;
     margin:auto;
     border-radius: 5px;
