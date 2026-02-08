@@ -1,12 +1,20 @@
 
 var button = $("#changeColorButton");
+
+var gallery = $(".gallery ")
 function buttonClicked() {
-    button.css("color","white")
-    button.css("background-color","black")
+    gallery.css("background-color","white")
     console.log("12345")
+    
+}
+button.on("click",buttonClicked);
+button.css("color","black")
+var imageCard =$(".image-card");
+function hideImage(){
+    var image =$(this);
+    image.hide();
+
 }
 
-
-button.on("click",buttonClicked);
-button.css("color","white")
+imageCard.on("click",hideImage);
 
